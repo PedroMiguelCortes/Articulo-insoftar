@@ -1,0 +1,36 @@
+.container {
+    & .header {
+        display: flex;
+        flex-direction: row;
+
+        & .tape {
+            position: absolute;
+            width: 343px;
+            height: 343px;
+            left: 224px;
+            top: -188px;
+        }
+
+        & .title {
+            font-family: 'Montserrat';
+            margin-top: 190px;
+            max-width: 358px;
+            font-weight: 700;
+            font-size: 30px;
+            color: #373f4f;
+        }
+    }
+
+    & .content {
+        padding: 0 101px;
+
+        & .content_text {
+            font-family: "Montserrat";
+            font-style: italic;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #727272;
+        }
+    }
+}
