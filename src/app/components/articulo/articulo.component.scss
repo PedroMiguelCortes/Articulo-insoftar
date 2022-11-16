@@ -5,10 +5,7 @@
 
         & .tape {
             position: absolute;
-            width: 343px;
-            height: 343px;
             left: 224px;
-            top: -188px;
         }
 
         & .title {
@@ -31,6 +28,12 @@
             font-size: 16px;
             line-height: 20px;
             color: #727272;
+        }
+
+        & .tape_second {
+            position: absolute;
+            left: 626px;
+            top: 997px;
         }
     }
 }
